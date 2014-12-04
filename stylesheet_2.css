@@ -1,0 +1,228 @@
+/* style tag targets header/body items of the same tag in css to format the page. 
+i.e. "h1 {}" targets only items with the h1 tag around it */
+/* ul li targets only the list items/text and not the bulletpoints. 
+Same applies for ol li */
+
+/* GENERAL */
+/* Attributes of tags used widely within the html file can be modified here.
+If the default Google Font stylesheets have been changed, update the font-family attribute within the relevant tags below */
+
+			body {
+				background-color: rgba(0,0,0,0.5);
+				font-family: 'Abel'; sans-serif;
+				position: center;
+				margin: 0 auto;
+				max-width: 1000px;
+			}
+
+			
+			h3 {
+				color: rgba(255, 255, 255, 1);
+				border-color: 7px solid black;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+
+			p {
+				font-family: 'Abel'; sans-serif;
+				font-size: 20px;
+			}
+
+			div {
+				background-size: cover;
+				text-align: center;
+				font-family: 'Abel'; sans-serif;
+			}
+
+			a {
+				font-size: 20px;
+				color: rgba(0,0,0,1);
+				font-family: 'Abel', sans-serif;
+				text-align: center;
+			}
+
+			img {
+				margin: 0 0 30px 0;
+				position: center;
+				border: 7px solid white;
+				border-radius: 50px;
+			}
+
+/* HEADER */
+/* Controls the styling of the jumbotron/header of the webpage. 
+Jumbotron image can be changed by changing the url inside the background-image attribute. 
+Background attachment can also be changed to either fixed or scroll to fit your personal preference. 
+If the default Google Font stylesheets have been changed, update the font-family attribute within the relevant tags below */
+
+			h1 {
+				color: rgba(255, 255, 255, 1);
+				background-color: solid white;
+				text-align: center;
+				font-size: 75px;
+			}
+
+			.jumbotron {
+				height: 450px;
+				margin: 0px 0 50px 0;
+				background-image: url('jumbotron.jpg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+				background-color: rgba(255,255,255,0);
+				border: 15px solid white;
+				border-radius: 50px;
+			}
+
+			#head {
+				text-align: center;
+				font-family: 'Indie Flower', cursive;
+
+					/* adjust margins around the text to align it */
+
+				margin: 0 0 10px 170px;
+				font-size: 50px;
+				color: #fff;
+			}
+/*
+			#opening {
+				text-align: center;
+				font-family: 'Abel'; sans-serif;
+				font-size: 25px;
+				margin: 20px 0 30px 0;
+				color: white;
+			}
+*/
+			.images {
+				max-height: 200px;
+			}
+
+/* ABOUT */
+
+			.about div {
+				position: center;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.committee {
+				font-family: 'Abel'; sans-serif;
+			}
+
+/* SECTION 1 */
+
+			.sect1 {
+				min-height: 0;
+				text-align: left;
+			}	
+
+			.first {
+				text-align: center;
+				margin: 20px;
+				min-width: 200px;
+			}
+
+			.Languages_title {
+				color: white;
+			}
+		
+			.language_item {
+				color: (0,255,255,1);
+			}
+
+			ul {
+				font-size: 20px;
+				text-align: left;
+			}
+
+/* GALLERY */
+
+			.thumbnails img {
+				height: 80px;
+				border: 2px solid #000;
+				padding: 2px;
+				margin: 0 10px 10px 0;
+				position: center;
+			}
+
+			.thumbnails img:hover {
+				border: 2px solid #000;
+				cursor:pointer;
+			}
+
+			.preview img {
+				border: 2px solid #000;
+				padding: 2px;
+				height: 400px;
+			}
+
+			.photos {
+				position: center;
+			}		
+
+/* SECTION 2 */
+
+			.sect2 {
+				position: center;
+				min-width: 410px;
+			}
+
+			table {
+				font-size: 20px;
+				position: center;
+				text-align: center;
+			}
+
+			th {
+				padding: 10px;
+			}
+
+			td {
+				padding: 10px;
+			}
+
+/* PROFILES */
+
+
+			#social-buttons button {
+				color: white;
+				font-family: 'Abel'; sans-serif;
+			}
+
+/* background colors within .btn-1, .btn-2 and .btn-3 can be personalised to match the chosen profiles */
+
+			.btn-1 {
+				background-color: #4868ac;
+				border-color: rgba(255,255,255,1);
+				margin: 0 auto;
+			}
+
+			.btn-2 {
+				background-color: #4868ac;
+				border-color: #009ad5;
+				margin: 0 auto;
+			}
+
+/*
+			.btn-3 {
+				background-color: #21759b;
+				border-color: #FFFFFF;
+				position: justify;
+			}
+*/
+			.bottom {
+				text-align: center;
+				margin: 20px;
+				min-width: 200px;	
+			}
+
+			.profile {
+				min-height: 100px;
+				min-width: 410px;
+			}		
+
+/* CONTACT */
+
+			.contact a {
+				margin: 0 10px 0 10px;
+			}
