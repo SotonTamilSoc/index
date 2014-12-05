@@ -48,6 +48,12 @@ If the default Google Font stylesheets have been changed, update the font-family
 				border-radius: 50px;
 			}
 
+/* NAVIGATION BAR */
+
+			.navbar {
+				font-family: 'Abel'; sans-serif;
+			}
+
 /* HEADER */
 /* Controls the styling of the jumbotron/header of the webpage. 
 Jumbotron image can be changed by changing the url inside the background-image attribute. 
