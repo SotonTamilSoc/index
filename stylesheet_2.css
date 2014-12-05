@@ -52,6 +52,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 
 			.navbar {
 				font-family: 'Abel'; sans-serif;
+				text-align: center;
 			}
 
 /* HEADER */
