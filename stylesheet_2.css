@@ -8,7 +8,7 @@ Same applies for ol li */
 If the default Google Font stylesheets have been changed, update the font-family attribute within the relevant tags below */
 
 			body {
-				background-color: rgba(0,0,0,0.5);
+				background-color: rgba(255,255,255,1);
 				font-family: 'Abel'; sans-serif;
 				position: center;
 				margin: 0 auto;
@@ -74,7 +74,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-attachment: scroll;
-				background-color: rgba(255,255,255,0);
+				background-color: rgba(255,255,255,1);
 				border: 15px solid white;
 				border-radius: 50px;
 			}
